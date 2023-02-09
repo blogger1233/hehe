@@ -1,0 +1,131 @@
+*{
+    margin: 0;font-family: 'Roboto', sans-serif;
+}
+.header{
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 9%;
+  transition: 0.5s;
+
+}
+.first
+{
+ 
+    width: 100%;
+    position: absolute;
+    height: 50%;
+   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.first img{
+    height: 140%;
+}
+.first input{
+    
+    width: 20%;
+    border: 0.01px solid gray;
+    border-radius:20px ;
+    outline: none;
+}
+.first .buttons{
+
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    
+}
+.first .buttons button
+{
+   
+    width: 30%;
+    border: none;
+    background-color: transparent;
+}
+
+.second{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    position: absolute;
+    height: 40%;
+    top: 70%;
+    background-color: #232323;
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.second button{
+    margin-left: 4%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+.section{
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+ 
+    width: 92%;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.section #heading{
+    font-size:28px ;
+
+    color: rgba(35, 35, 35, 1);
+}
+.section p{
+    font-weight: 800;
+    padding-top: 11%;
+    color:rgba(96, 96, 96, 1) hsla(0, 0%, 38%, 1);
+    font-size: 18px;
+}
+.section img{
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.059), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.id{
+    font-weight: bold;
+    color: rgb(41, 35, 35);
+    margin-top: 6%;
+}
+.notice{
+    z-index: 11;   background-color: white;
+    position:fixed;
+    min-height: 20%;
+    width:50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    left:20%;
+    top: 10%;
+    padding: 11%;
+    font-size: 13px;
+
+}
+
+.notice button{
+    padding: 10px;
+    display: inline-block;
+      min-height: 10px;
+      min-width: 50%;
+     border: 0.01px solid rgba(128, 128, 128, 0.254);
+     color: blue;
+     font-weight: 700;
+     text-decoration: none;
+    
+    outline: none;
+    background-color: transparent;
+}
